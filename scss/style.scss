@@ -5,10 +5,7 @@
 *02-Layout- Generic styling for mobile, desktop and tablet.
 */
 
-/* Remember to
-1. Put variables for color, fonts etc here. 
-2. Import all scss files here
-*/
+@import '../scss/layout/base';
 
 $styled-font: 'Playfair Display', serif;
 $normal-font: 'Open Sans', sans-serif;
@@ -19,4 +16,48 @@ $primary-orange: #f6785f;
 $secondary-dark: #6f6c66;
 $secondary-light: #f0ede9;
 
-@import '../scss/layout/base';
+/* 
+Components structure
+landingpageContainer
+    -navbar
+        -landingpageLogo
+        -IconsBox
+            -icons
+            -loginBtn*
+        -navbarMenu*
+    -landingpageTextBox
+        -landingpageHeader
+        -landingpageText
+        -landingpageBtn
+productsContainer
+    -productsTextBox
+        -productsText
+    -productBox
+        -productImg
+        -productText
+mediaBannerContainer
+    -mediaBannerWrapper
+        -mediaBannerTextBox
+            -mediaBannerHeader
+            -mediaBannerText*
+            -mediaBannerBtn
+        -mediaBannerImgBox
+newsContainer
+    -newsTextBox
+        -newsHeader
+        -newsText
+    -newsImgBox
+footerContainer
+    -footerLogo
+    -footerMenuColumns
+        -footerMenuCategories
+        -footerMenuOptions
+    -footerSubscribeBox
+        -footerSubscribe
+            -footerHeader
+            -footerInput
+        -footerSoMeIcons
+
+
+*For desktop & tablet view
+*/
