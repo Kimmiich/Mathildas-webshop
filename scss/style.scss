@@ -9,3 +9,49 @@
 1. Put variables for color, fonts etc here. 
 2. Import all scss files here
 */
+
+/* 
+Components structure
+landingpageContainer
+    -navbar
+        -landingpageLogo
+        -IconsBox
+            -icons
+            -loginBtn*
+        -navbarMenu*
+    -landingpageTextBox
+        -landingpageHeader
+        -landingpageText
+        -landingpageBtn
+productsContainer
+    -productsTextBox
+        -productsText
+    -productBox
+        -productImg
+        -productText
+mediaBannerContainer
+    -mediaBannerWrapper
+        -mediaBannerTextBox
+            -mediaBannerHeader
+            -mediaBannerText*
+            -mediaBannerBtn
+        -mediaBannerImgBox
+newsContainer
+    -newsTextBox
+        -newsHeader
+        -newsText
+    -newsImgBox
+footerContainer
+    -footerLogo
+    -footerMenuColumns
+        -footerMenuCategories
+        -footerMenuOptions
+    -footerSubscribeBox
+        -footerSubscribe
+            -footerHeader
+            -footerInput
+        -footerSoMeIcons
+
+
+*For desktop & tablet view
+*/
