@@ -9,3 +9,14 @@
 1. Put variables for color, fonts etc here. 
 2. Import all scss files here
 */
+
+$styled-font: 'Playfair Display', serif;
+$normal-font: 'Open Sans', sans-serif;
+
+$primary-almost-white: #fff9ef;
+$primary-black: #333333;
+$primary-orange: #f6785f;
+$secondary-dark: #6f6c66;
+$secondary-light: #f0ede9;
+
+@import '../scss/layout/base';
