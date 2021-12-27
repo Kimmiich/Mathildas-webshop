@@ -1,0 +1,45 @@
+.landingpageTextBox {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 144px;
+  .landingpageHeader {
+    color: $primary-black;
+    font-family: $styled-font;
+    font-size: 45px;
+    max-width: 310px;
+    margin: 7px;
+  }
+  .landingpageSubheader {
+    margin: 0px;
+    color: $primary-black;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 360px;
+  }
+  .landingpageBtn {
+    font-family: $normal-font;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 40px;
+    width: 179px;
+    height: 43px;
+    background-color: $primary-orange;
+    box-shadow: 2px 2px 3px #00000029;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f6785fbf;
+    }
+    &:active {
+      background-color: #f6785f80;
+    }
+    &:disabled {
+      background-color: #f6785f52;
+    }
+  }
+}

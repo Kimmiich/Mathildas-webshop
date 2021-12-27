@@ -1,0 +1,32 @@
+/* navbar component styling */
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  height: 42px;
+  width: 100%;
+  .iconsBox {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    .fa-heart {
+      color: $primary-black;
+      font-size: 27px;
+    }
+    .fa-shopping-basket {
+      color: $primary-black;
+      font-size: 27px;
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+
+    .fa-bars {
+      color: $primary-orange;
+      font-size: 28px;
+    }
+  }
+}

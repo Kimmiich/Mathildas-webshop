@@ -5,8 +5,6 @@
 *02-Layout- Generic styling for mobile, desktop and tablet.
 */
 
-@import '../scss/layout/base';
-
 $styled-font: 'Playfair Display', serif;
 $normal-font: 'Open Sans', sans-serif;
 
@@ -15,3 +13,9 @@ $primary-black: #333333;
 $primary-orange: #f6785f;
 $secondary-dark: #6f6c66;
 $secondary-light: #f0ede9;
+
+$mobile-margin: 35px;
+
+@import '../scss/layout/base';
+@import '../scss/components/landingpage/navbar';
+@import '../scss/components/landingpage/textBox';
