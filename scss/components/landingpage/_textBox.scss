@@ -22,7 +22,7 @@
   .landingpageBtn {
     font-family: $normal-font;
     font-size: 20px;
-    color: $primary-almost-white;
+    color: #ffffff;
     margin-top: 40px;
     width: 179px;
     height: 43px;
@@ -30,5 +30,16 @@
     box-shadow: 2px 2px 3px #00000029;
     border-radius: 5px;
     border: 0px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f6785fbf;
+    }
+    &:active {
+      background-color: #f6785f80;
+    }
+    &:disabled {
+      background-color: #f6785f52;
+    }
   }
 }
