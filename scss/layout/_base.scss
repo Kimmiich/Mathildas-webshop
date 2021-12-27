@@ -16,15 +16,19 @@ body {
   }
   .landingpageContainer {
     height: 100vh;
+    margin-bottom: $mobile-margin;
   }
   .productsContainer {
     background-color: gray;
+    margin-bottom: $mobile-margin;
   }
   .mediaBannerContainer {
     background-color: green;
+    margin-bottom: $mobile-margin;
   }
   .newsContainer {
     background-color: hotpink;
+    margin-bottom: $mobile-margin;
   }
   .footerContainer {
     background-color: indigo;
