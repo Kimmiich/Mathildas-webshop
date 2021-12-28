@@ -1,12 +1,12 @@
 .productsContainer {
-  margin: 20px 25px 0px 25px;
+  margin: 20px 0px 0px 25px;
   .productsHeaderBox {
     display: flex;
     justify-content: center;
 
     .productsHeader {
       width: 184px;
-      margin: 0px;
+      margin: 0px 25px 0px 0px;
       font-family: $styled-font;
       font-weight: normal;
       font-size: 38px;
@@ -21,12 +21,13 @@
     justify-content: space-between;
     align-items: center;
     height: 377px;
-    min-width: 949px;
     overflow: hidden;
+
     .nav-arrow {
       position: absolute;
       right: 20px;
       .svg {
+        animation: opacityArrow 5s infinite;
         cursor: pointer;
         transition: all 0.2s linear;
         &:hover {
@@ -34,11 +35,21 @@
         }
       }
     }
+    @keyframes opacityArrow {
+      0%,
+      100% {
+        opacity: 0.5;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
     .productBox {
       display: flex;
       flex-flow: column nowrap;
       justify-content: center;
       align-items: center;
+      margin-right: 28px;
       .productImg {
         width: 217px;
         height: 327px;
