@@ -8,6 +8,7 @@
   max-width: 1588px;
   .mediaBannerTextBox {
     width: 38%;
+    min-width: 150px;
     margin-left: 9%;
     display: flex;
     flex-flow: column nowrap;
