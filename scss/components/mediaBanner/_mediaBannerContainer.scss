@@ -1,0 +1,43 @@
+.mediaBannerContainer {
+  background-image: url('/imgs/media-banner-mobile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 136px;
+  width: 100%;
+  max-width: 1588px;
+  .mediaBannerTextBox {
+    width: 38%;
+    margin-left: 9%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    .mediaBannerHeader {
+      font-size: 17px;
+      text-align: center;
+    }
+    .mediaBannerBtn {
+      width: 150px;
+      height: 35px;
+      font-family: $normal-font;
+      font-size: 15px;
+      color: $primary-black;
+      background-color: $primary-almost-white;
+      border: 1px solid #6f6c66;
+      cursor: pointer;
+
+      &:hover,
+      :active,
+      :disabled {
+        background-color: #f0ede9;
+      }
+      &:active {
+        border: none;
+      }
+      &:disabled {
+        opacity: 40%;
+      }
+    }
+  }
+}

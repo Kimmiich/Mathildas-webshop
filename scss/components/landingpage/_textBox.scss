@@ -10,7 +10,8 @@
     font-family: $styled-font;
     font-weight: normal;
     font-size: 45px;
-    max-width: 310px;
+    min-width: 310px;
+    width: 79%;
     margin: 7px;
   }
   .landingpageSubheader {
@@ -18,7 +19,8 @@
     color: $primary-black;
     font-weight: 300;
     font-size: 20px;
-    max-width: 360px;
+    width: 85%;
+    min-width: 340px;
   }
   .landingpageBtn {
     font-family: $normal-font;

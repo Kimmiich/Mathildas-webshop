@@ -1,9 +1,10 @@
 /* navbar component styling */
 .navbar {
   display: flex;
-  flex-flow: row nowrap;
+  width: 90%;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   margin: 20px 25px 0px 25px;
   height: 42px;
   .navLogo {
@@ -13,7 +14,6 @@
     list-style: none;
     padding: 0px;
     display: flex;
-    flex-flow: row nowrap;
     justify-content: space-between;
     .fa-heart {
       color: $primary-black;
