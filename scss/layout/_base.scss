@@ -22,9 +22,9 @@ body {
     background-position: right bottom;
     background-repeat: no-repeat;
   }
-  .productsContainer {
-    // margin-bottom: $mobile-margin;
-  }
+  // .productsContainer {
+  //   // margin-bottom: $mobile-margin;
+  // }
   .mediaBannerContainer {
     margin-bottom: $mobile-margin;
   }
@@ -32,6 +32,6 @@ body {
     margin-bottom: $mobile-margin;
   }
   .footerContainer {
-    background-color: indigo;
+    background-color: $primary-black;
   }
 }
