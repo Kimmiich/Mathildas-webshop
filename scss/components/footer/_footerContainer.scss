@@ -30,11 +30,13 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
     .footerSubscribe {
       .subscribeHeader {
         color: $primary-almost-white;
-        width: 70%;
+        width: 90%;
+        text-align: center;
         margin: 0px auto;
         font-weight: normal;
         font-family: $styled-font;
@@ -45,7 +47,7 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        width: 70%;
+        width: 80%;
         .subscribeInput {
           background-color: $primary-black;
           border: 2px solid $primary-almost-white;
