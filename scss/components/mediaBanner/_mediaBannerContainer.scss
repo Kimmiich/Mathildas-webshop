@@ -1,0 +1,17 @@
+.mediaBannerContainer {
+  background-image: url('/imgs/media-banner-mobile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 136px;
+  width: 100%;
+  max-width: 1588px;
+  .mediaBannerTextBox {
+    width: 38%;
+    margin-left: 9%;
+    .mediaBannerHeader {
+      font-size: 17px;
+      text-align: center;
+    }
+  }
+}
