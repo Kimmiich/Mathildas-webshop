@@ -1,0 +1,94 @@
+.footerContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  .footerLogo {
+    margin: 20px 0px;
+  }
+  .footerMenuColumnsWrapper {
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    color: $primary-almost-white;
+    justify-content: space-between;
+    .footerMenuColumn {
+      .footerMenuCategorie {
+        font-family: $styled-font;
+        font-size: 19px;
+        margin: 0px;
+      }
+      .footerMenuOptions {
+        list-style: none;
+        padding: 0px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 2.8;
+      }
+    }
+  }
+  .footerSubscribeWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 20px;
+    .footerSubscribe {
+      .subscribeHeader {
+        color: $primary-almost-white;
+        width: 70%;
+        margin: 0px auto;
+        font-weight: normal;
+        font-family: $styled-font;
+        font-size: 25px;
+      }
+      .subscribeRegister {
+        margin: 10px auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 70%;
+        .subscribeInput {
+          background-color: $primary-black;
+          border: 2px solid $primary-almost-white;
+          border-radius: 5px 0px 0px 5px;
+          color: $primary-almost-white;
+          padding: 4px 8px;
+          font-size: 13px;
+          width: 75%;
+          font-weight: lighter;
+        }
+        .subscribeBtn {
+          background-color: $primary-almost-white;
+          border: 2px solid $primary-almost-white;
+          border-radius: 0px 5px 5px 0px;
+          color: $secondary-dark;
+          padding: 4px 2px;
+          font-size: 13px;
+          font-family: $normal-font;
+          font-weight: lighter;
+          width: 22%;
+          cursor: pointer;
+          &:hover {
+            background-color: $secondary-light;
+          }
+        }
+      }
+    }
+    .footerSoMeLinks {
+      list-style: none;
+      padding: 0px;
+      width: 28%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+
+      .fab {
+        color: $primary-almost-white;
+        font-size: 29px;
+        &:hover {
+          color: $primary-orange;
+          opacity: 60%;
+        }
+      }
+    }
+  }
+}
