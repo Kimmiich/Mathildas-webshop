@@ -24,7 +24,7 @@
   .nav-arrow {
     position: absolute;
     right: 20px;
-    .svg {
+    .svg #ARROW {
       animation: opacityArrow 5s infinite;
       cursor: pointer;
       transition: all 0.2s linear;
@@ -36,10 +36,12 @@
   @keyframes opacityArrow {
     0%,
     100% {
-      opacity: 0.5;
+      fill: #ffffff;
+      stroke: #8d8d8d;
     }
     50% {
-      opacity: 1;
+      stroke: $secondary-dark;
+      fill: $primary-orange;
     }
   }
   .productBox {
