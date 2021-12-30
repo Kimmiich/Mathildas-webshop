@@ -1,39 +1,32 @@
-.newsContainer {
-  margin: 0px 25px 0px 25px;
+.newsTextBox {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  .newsTextBox {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    .newsHeader {
-      font-family: $styled-font;
-      font-size: 25px;
-      font-weight: normal;
-      width: 80%;
-      min-width: 277px;
-      .newsAltHeader {
-        color: $primary-orange;
-      }
-    }
-    .newsText {
-      font-weight: lighter;
-      font-size: 15px;
-      color: $primary-black;
-      line-height: 2;
-      margin-bottom: $mobile-margin;
+  .newsHeader {
+    font-family: $styled-font;
+    font-size: 25px;
+    font-weight: normal;
+    width: 80%;
+    min-width: 277px;
+    .newsAltHeader {
+      color: $primary-orange;
     }
   }
-  .newsImgWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .newsImg {
-      width: 95%;
-      border-radius: 20px;
-    }
+  .newsText {
+    font-weight: lighter;
+    font-size: 15px;
+    color: $primary-black;
+    line-height: 2;
+    margin-bottom: $mobile-margin;
+  }
+}
+.newsImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .newsImg {
+    width: 95%;
+    border-radius: 20px;
   }
 }

@@ -22,16 +22,30 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
-  // .productsContainer {
-  //   // margin-bottom: $mobile-margin;
-  // }
+  .productsContainer {
+    margin: 20px 0px 0px 25px;
+  }
   .mediaBannerContainer {
     margin-bottom: $mobile-margin;
+    background-image: url('/imgs/media-banner-mobile.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 136px;
+    width: 100%;
+    max-width: 1588px;
   }
   .newsContainer {
-    margin-bottom: $mobile-margin;
+    margin: 0px 25px $mobile-margin 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
   }
   .footerContainer {
     background-color: $primary-black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
   }
 }
