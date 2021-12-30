@@ -21,15 +21,16 @@
   height: 377px;
   overflow: hidden;
 
-  .nav-arrow {
+  .navArrow {
     position: absolute;
     right: 20px;
+    cursor: pointer;
     .svg #ARROW {
       animation: opacityArrow 5s infinite;
       cursor: pointer;
       transition: all 0.2s linear;
       &:hover {
-        transform: scale(1.1);
+        animation: none;
       }
     }
   }
