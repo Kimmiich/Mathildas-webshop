@@ -1,2 +1,13 @@
-/* Add JS if needed here */
-console.log('Hello there');
+const navBar = document.getElementById('navBar');
+
+const scrollPostion = () => {
+  window.onscroll = () => {
+    if (window.scrollY > 80) {
+      navBar.classList.add('scroll');
+    } else {
+      navBar.classList.remove('scroll');
+    }
+  };
+};
+
+scrollPostion();

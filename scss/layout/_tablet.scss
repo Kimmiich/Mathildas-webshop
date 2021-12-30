@@ -1,0 +1,41 @@
+/*--Landingpage--*/
+html,
+body {
+  .landingpageContainer {
+    background-image: url('/imgs/background-tablet.png');
+
+    .navbar {
+      width: 95%;
+      .navLogo {
+        width: 78px;
+      }
+      .iconsBox {
+        .menuBtn {
+          display: none;
+        }
+        .logInBtn {
+          display: flex;
+        }
+      }
+      .navbarMenu {
+        display: flex;
+      }
+    }
+    .landingpageTextBox {
+      margin-top: 20%;
+      .landingpageHeader {
+        font-size: 50px;
+      }
+      .landingpageSubheader {
+        font-size: 17px;
+      }
+      .landingpageBtn {
+        width: 161px;
+        height: 39px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+/*--Productspage--*/
