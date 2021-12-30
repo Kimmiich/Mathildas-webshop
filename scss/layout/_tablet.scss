@@ -36,6 +36,25 @@ body {
       }
     }
   }
+  .productsContainer {
+    display: flex;
+    align-items: center;
+    .productsHeaderBox {
+      margin-right: 37px;
+      margin-left: 37px;
+      margin-bottom: 90px;
+    }
+    .productsWrapper {
+      min-height: 427px;
+      .productBox {
+        .productImg {
+          width: 242px;
+          height: 363px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
 }
 
 /*--Productspage--*/
