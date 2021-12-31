@@ -10,6 +10,14 @@
     font-size: 17px;
     text-align: center;
   }
+  .mediaBannerText {
+    display: none;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: $primary-black;
+    margin: 0px 0px 20px 0px;
+  }
   .mediaBannerBtn {
     width: 150px;
     height: 35px;

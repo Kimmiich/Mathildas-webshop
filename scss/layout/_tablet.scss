@@ -3,7 +3,6 @@ html,
 body {
   .landingpageContainer {
     background-image: url('/imgs/background-tablet.png');
-
     .navbar {
       width: 95%;
       .navLogo {
@@ -36,6 +35,9 @@ body {
       }
     }
   }
+
+  /*--Productspage--*/
+
   .productsContainer {
     display: flex;
     align-items: center;
@@ -55,6 +57,28 @@ body {
       }
     }
   }
+  .mediaBannerContainer {
+    margin: auto;
+    background-image: url('/imgs/media-banner-desktop.png');
+    min-height: 180px;
+    width: 95%;
+    border-radius: 20px;
+    max-width: 1588px;
+    .mediaBannerTextBox {
+      width: 60%;
+      min-width: 418px;
+      margin: 30px 40% 0px auto;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      .mediaBannerHeader {
+        font-size: 25px;
+        margin: 15px 0px 0px 0px;
+      }
+      .mediaBannerText {
+        display: flex;
+      }
+    }
+  }
 }
-
-/*--Productspage--*/
