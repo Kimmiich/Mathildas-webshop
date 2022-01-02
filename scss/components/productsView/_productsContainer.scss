@@ -1,71 +1,71 @@
-.productsContainer {
-  margin: 20px 0px 0px 25px;
-  .productsHeaderBox {
-    display: flex;
-    justify-content: center;
+.productsHeaderBox {
+  display: flex;
+  justify-content: center;
 
-    .productsHeader {
-      width: 184px;
-      margin: 0px 25px 0px 0px;
-      font-family: $styled-font;
-      font-weight: normal;
-      font-size: 38px;
-      color: $primary-orange;
-      text-align: center;
+  .productsHeader {
+    width: 184px;
+    margin: 0px 25px 0px 0px;
+    font-family: $styled-font;
+    font-weight: normal;
+    font-size: 38px;
+    color: $primary-orange;
+    text-align: center;
+  }
+}
+.productsWrapper {
+  margin: 35px 0 35px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 377px;
+  overflow: hidden;
+
+  .navArrow {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    .svg #ARROW {
+      animation: opacityArrow 5s infinite;
+      cursor: pointer;
+      transition: all 0.2s linear;
+      &:hover {
+        animation: none;
+      }
     }
   }
-  .productsWrapper {
-    margin: 35px 0 35px 0;
+  @keyframes opacityArrow {
+    0%,
+    100% {
+      fill: #ffffff;
+      stroke: #8d8d8d;
+    }
+    50% {
+      stroke: $secondary-dark;
+      fill: $primary-orange;
+    }
+  }
+  .productBox {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
-    height: 377px;
-    overflow: hidden;
-
-    .nav-arrow {
-      position: absolute;
-      right: 20px;
-      .svg {
-        animation: opacityArrow 5s infinite;
-        cursor: pointer;
-        transition: all 0.2s linear;
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
+    margin-right: 28px;
+    .productImg {
+      width: 217px;
+      height: 327px;
+      border-radius: 20px;
     }
-    @keyframes opacityArrow {
-      0%,
-      100% {
-        opacity: 0.5;
-      }
-      50% {
-        opacity: 1;
-      }
+    .productName {
+      margin: 0px;
+      font-size: 20px;
+      color: $primary-black;
     }
-    .productBox {
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: center;
-      align-items: center;
-      margin-right: 28px;
-      .productImg {
-        width: 217px;
-        height: 327px;
-        border-radius: 20px;
-      }
-      .productName {
-        margin: 0px;
-        font-size: 20px;
-        color: $primary-black;
-      }
-      .productPrice {
-        margin: 0px;
-        font-size: 15px;
-        font-weight: lighter;
-        color: $primary-black;
-      }
+    .productPrice {
+      margin: 0px;
+      font-size: 15px;
+      font-weight: lighter;
+      color: $primary-black;
     }
   }
 }

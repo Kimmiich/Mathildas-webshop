@@ -17,12 +17,19 @@
   <body>
     <div class="gridWrapper">
       <main class="landingpageContainer">
+        <div class="navWrapper" id="navBar">
         <nav class="navbar">
           <picture class="landingpageLogo">
             <a href="#"
               ><img class="navLogo" src="/imgs/hers.png" alt="hers logo"
             /></a>
           </picture>
+          <ul class="navbarMenu">
+            <li class="navbarMenuOptions"><a href="#" class="menuText">Home</a></li>
+            <li class="navbarMenuOptions"><a href="#" class="menuText">Skincare</a></li>
+            <li class="navbarMenuOptions"><a href="#" class="menuText">Our story</a></li>
+            <li class="navbarMenuOptions"><a href="#" class="menuText">Contact</a></li>
+          </ul>
           <ul class="iconsBox">
             <li class="iconHeart">
               <a href="#"><i class="far fa-heart"></i></a>
@@ -46,17 +53,12 @@
             <li class="menuBtn">
               <a href="#"><i class="fas fa-bars"></i></a>
             </li>
-            <li class="logInBtn" style="display: none">
-              <a href="#">Log in</a>
+            <li class="logInBtn">
+              <a href="#" class="logInText">Log in</a>
             </li>
           </ul>
-          <ul class="navbarMenu" style="display: none">
-            <li class="navbarMenuOptions"><a href="#">Home</a></li>
-            <li class="navbarMenuOptions"><a href="#">Skincare</a></li>
-            <li class="navbarMenuOptions"><a href="#">Our story</a></li>
-            <li class="navbarMenuOptions"><a href="#">Contact</a></li>
-          </ul>
         </nav>
+        </div>
         <section class="landingpageTextBox">
           <h1 class="landingpageHeader">Bring nature into your home</h1>
           <h4 class="landingpageSubheader">
@@ -71,7 +73,7 @@
           <h2 class="productsHeader">Our Bestsellers</h2>
         </header>
         <main class="productsWrapper">
-          <div class="nav-arrow">
+          <div class="navArrow">
             <svg
               class="svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +123,7 @@
             <p class="mediaBannerHeader">
               Organic lip balm for your winter lips
             </p>
-            <p class="mediaBannerText" style="display: none">
+            <p class="mediaBannerText">
               Choose from several different scents and find your favorite
             </p>
             <button class="mediaBannerBtn">Show me</button>
@@ -148,7 +150,7 @@
         </header>
         <main class="newsImgWrapper">
           <img class="newsImg" src="/imgs/buddhasmall.jpg" alt="buddha" />
-          <img class="newsImg desktopNewsImg" src="/imgs/backgroundsmall.jpg" alt="marmor" style="display: none" />
+          <img class="newsImg desktopNewsImg" src="/imgs/backgroundsmall.jpg" alt="marmor" />
         </main>
       </aside>
       <footer class="footerContainer">

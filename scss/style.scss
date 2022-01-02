@@ -15,6 +15,8 @@ $secondary-dark: #6f6c66;
 $secondary-light: #f0ede9;
 
 $mobile-margin: 35px;
+$tablet-margin: 70px;
+$desktop-margin: 140px;
 
 @import '../scss/layout/base';
 @import '../scss/components/landingpage/navbar';
@@ -23,3 +25,10 @@ $mobile-margin: 35px;
 @import '../scss/components/mediaBanner/mediaBannerContainer';
 @import '../scss/components/newsLetter/newsContainer';
 @import '../scss/components/footer/footerContainer';
+
+@media screen and (min-width: 768px) {
+  @import '../scss/layout/tablet';
+}
+@media screen and (min-width: 1280px) {
+  @import '../scss/layout/desktop';
+}
