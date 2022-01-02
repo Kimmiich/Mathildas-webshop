@@ -8,6 +8,7 @@
     font-size: 25px;
     font-weight: normal;
     width: 80%;
+    max-width: 361px;
     min-width: 277px;
     .newsAltHeader {
       color: $primary-orange;
@@ -16,6 +17,7 @@
   .newsText {
     font-weight: lighter;
     font-size: 15px;
+    max-width: 642px;
     color: $primary-black;
     line-height: 2;
     margin-bottom: $mobile-margin;
@@ -28,5 +30,8 @@
   .newsImg {
     width: 95%;
     border-radius: 20px;
+  }
+  .desktopNewsImg {
+    display: none;
   }
 }
