@@ -3,12 +3,19 @@ html,
 body {
   .landingpageContainer {
     background-image: url('/imgs/background-tablet.png');
+    background-position: top center;
     .navbar {
       width: 95%;
       .navLogo {
         width: 78px;
       }
       .iconsBox {
+        .fa-heart {
+          font-size: 18px;
+        }
+        .fa-shopping-basket {
+          height: 18px;
+        }
         .menuBtn {
           display: none;
         }

@@ -30,7 +30,7 @@
     padding: 0px;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     .fa-heart {
       color: $primary-black;
       font-size: 27px;
@@ -43,9 +43,19 @@
     }
     .fa-shopping-basket {
       color: $primary-black;
-      font-size: 27px;
+      height: 27px;
       margin-left: 10px;
       margin-right: 10px;
+      &:hover {
+        path {
+          fill: #bfbfbe;
+        }
+      }
+      &:active {
+        path {
+          fill: $primary-orange;
+        }
+      }
     }
 
     .fa-bars {
@@ -69,6 +79,7 @@
       border-radius: 5px;
       border: 0px;
       cursor: pointer;
+
       &:hover {
         background-color: #f6785fbf;
       }
