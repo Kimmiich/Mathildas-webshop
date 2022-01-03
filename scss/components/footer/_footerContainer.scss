@@ -16,7 +16,7 @@
     .footerMenuOptions {
       list-style: none;
       padding: 0px;
-      font-weight: normal;
+      font-weight: lighter;
       font-size: 13px;
       line-height: 2.8;
     }
@@ -60,7 +60,7 @@
         border-radius: 0px 5px 5px 0px;
         color: $secondary-dark;
         padding: 4px 2px;
-        font-size: 13px;
+        font-size: 15px;
         font-family: $normal-font;
         font-weight: lighter;
         width: 22%;
@@ -74,7 +74,7 @@
   .footerSoMeLinks {
     list-style: none;
     padding: 0px;
-    width: 28%;
+    width: 108px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
