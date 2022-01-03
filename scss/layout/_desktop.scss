@@ -50,21 +50,25 @@ body {
   /*--Productspage--*/
 
   .productsContainer {
-    display: flex;
-    align-items: center;
-    margin: $tablet-margin 0px 0px 25px;
+    margin: $desktop-margin 0px 0px 25px;
     .productsHeaderBox {
-      margin-right: 37px;
-      margin-left: 37px;
-      margin-bottom: 90px;
+      .productsHeader {
+        font-size: 56px;
+        width: 364px;
+      }
     }
     .productsWrapper {
-      min-height: 427px;
+      min-height: 630px;
       .productBox {
         .productImg {
-          width: 242px;
-          height: 363px;
-          margin-bottom: 20px;
+          width: 358px;
+          height: 537px;
+        }
+        .productName {
+          font-size: 30px;
+        }
+        .productPrice {
+          font-size: 23px;
         }
       }
     }

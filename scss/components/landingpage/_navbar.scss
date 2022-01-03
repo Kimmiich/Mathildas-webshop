@@ -62,12 +62,17 @@
       color: $primary-orange;
       font-size: 28px;
       &:hover {
-        color: #f6785fbf;
+        line {
+          stroke: #f6785fbf;
+        }
       }
       &:active {
-        color: #f6785f80;
+        line {
+          stroke: #f6785f80;
+        }
       }
     }
+
     .logInBtn {
       display: none;
       align-items: center;

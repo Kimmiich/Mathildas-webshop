@@ -10,6 +10,16 @@ const scrollPostion = () => {
   };
 };
 
+const menubar = document.querySelector('.menuBtn');
+let burger = document.getElementById('BURGER-MENU');
+let lineTwo = document.getElementById('Line_2');
+let lineThree = document.getElementById('Line_3');
+const styling = 'transform: translate(0px, 27.267px)';
+
+menubar.addEventListener('click', () => {
+  console.log('Klick');
+});
+
 // let margin = 0;
 // const arrow = document.querySelector('.navArrow');
 // const products = document.querySelector('.productsWrapper');
