@@ -103,7 +103,7 @@ body {
 
   /*--Newsview--*/
   .newsContainer {
-    margin: $desktop-margin auto 0px auto;
+    margin: $desktop-margin auto;
     flex-flow: row nowrap;
     justify-content: space-between;
     width: 95%;
@@ -139,46 +139,60 @@ body {
 
   /*--Footer--*/
   .footerContainer {
-    margin-top: $desktop-margin;
     height: 444px;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     .footerLogo {
-      margin: 12px 0px;
-      width: 55%;
-      min-height: 48px;
-      order: 1;
-      display: flex;
-      justify-content: center;
+      width: 30%;
+      margin: auto;
+      .logoImg {
+        width: 208px;
+        height: 133px;
+      }
     }
     .footerMenuColumnsWrapper {
-      width: 30%;
-      height: 80%;
+      width: 20%;
+      height: 250px;
       order: 2;
-      margin: 50px auto;
+      margin: auto;
+      .footerMenuColumn {
+        .footerMenuCategorie {
+          font-size: 25px;
+        }
+        .footerMenuOptions {
+          font-size: 16px;
+        }
+      }
     }
     .footerSubscribeWrapper {
       margin: 0px auto;
       order: 3;
-      width: 55%;
-      height: 176px;
+      width: 50%;
+      height: 250px;
 
       .footerSubscribe {
         .subscribeHeader {
-          margin-bottom: 20px;
-          width: 100%;
-          font-size: 17px;
+          font-size: 31px;
         }
         .subscribeRegister {
           width: 90%;
           .subscribeInput {
-            font-size: 9px;
+            font-size: 16px;
+            padding: 8px 16px;
           }
           .subscribeBtn {
-            font-size: 13px;
+            font-size: 25px;
+            width: 155px;
+            height: 60px;
           }
         }
+      }
+    }
+    .footerSoMeLinks {
+      width: 144px;
+      .fab {
+        font-size: 38px;
       }
     }
   }
