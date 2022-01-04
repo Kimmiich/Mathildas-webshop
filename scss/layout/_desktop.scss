@@ -79,26 +79,25 @@ body {
   /*--Media banner--*/
 
   .mediaBannerContainer {
-    margin: $tablet-margin auto;
-    background-image: url('/imgs/media-banner-desktop.png');
-    min-height: 180px;
-    width: 95%;
-    border-radius: 20px;
-    max-width: 1588px;
+    margin: $desktop-margin auto;
+
+    min-height: 389px;
+    width: 85%;
     .mediaBannerTextBox {
-      width: 60%;
-      min-width: 418px;
-      margin: 30px 40% 0px auto;
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: center;
-      align-items: center;
+      min-width: 635px;
+      margin: 100px 40% 0px auto;
+
       .mediaBannerHeader {
-        font-size: 25px;
+        font-size: 38px;
         margin: 15px 0px 0px 0px;
       }
       .mediaBannerText {
-        display: flex;
+        font-size: 23px;
+      }
+      .mediaBannerBtn {
+        width: 263px;
+        height: 61px;
+        font-size: 25px;
       }
     }
   }
