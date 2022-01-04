@@ -79,8 +79,7 @@ body {
   /*--Media banner--*/
 
   .mediaBannerContainer {
-    margin: $desktop-margin auto;
-
+    margin: $desktop-margin auto 0px auto;
     min-height: 389px;
     width: 85%;
     .mediaBannerTextBox {
@@ -104,35 +103,47 @@ body {
 
   /*--Newsview--*/
   .newsContainer {
-    margin: 0px 25px $tablet-margin 25px;
+    margin: $desktop-margin auto 0px auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1588px;
 
     .newsTextBox {
+      order: 2;
+      width: 50%;
+      align-items: space-between;
+      justify-content: space-between;
       .newsHeader {
-        font-size: 30px;
+        max-width: 611px;
+        font-size: 50px;
       }
       .newsText {
-        font-size: 18px;
+        font-size: 25px;
+        width: 90%;
+        max-width: 819px;
       }
     }
     .newsImgWrapper {
-      justify-content: space-between;
-      width: 700px;
+      width: 40%;
+      order: 1;
       .newsImg {
-        width: 313px;
-        height: 470px;
+        width: 625px;
+        height: 938px;
       }
       .desktopNewsImg {
-        display: flex;
+        display: none;
       }
     }
   }
 
   /*--Footer--*/
   .footerContainer {
-    margin-top: $tablet-margin;
-    height: 282px;
-    flex-flow: column wrap;
-    justify-content: flex-start;
+    margin-top: $desktop-margin;
+    height: 444px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     .footerLogo {
       margin: 12px 0px;
       width: 55%;
@@ -144,12 +155,12 @@ body {
     .footerMenuColumnsWrapper {
       width: 30%;
       height: 80%;
-      order: 3;
+      order: 2;
       margin: 50px auto;
     }
     .footerSubscribeWrapper {
       margin: 0px auto;
-      order: 2;
+      order: 3;
       width: 55%;
       height: 176px;
 
