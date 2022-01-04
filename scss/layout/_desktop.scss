@@ -1,1 +1,199 @@
-/* Tablet view main styling */
+/*--Landingpage--*/
+html,
+body {
+  .landingpageContainer {
+    .navWrapper {
+      height: 100px;
+    }
+    .navbar {
+      margin-top: 45px;
+      .navLogo {
+        width: 138px;
+      }
+      .iconsBox {
+        .fa-heart {
+          font-size: 27px;
+        }
+        .fa-shopping-basket {
+          height: 27px;
+        }
+        .logInBtn {
+          width: 152px;
+          height: 44px;
+          .logInText {
+            font-size: 21px;
+          }
+        }
+      }
+      .navbarMenu {
+        .menuText {
+          font-size: 30px;
+        }
+      }
+    }
+    .landingpageTextBox {
+      margin-top: 20%;
+      .landingpageHeader {
+        font-size: 100px;
+        width: 100%;
+      }
+      .landingpageSubheader {
+        font-size: 36px;
+        width: 100%;
+      }
+      .landingpageBtn {
+        width: 315px;
+        height: 77px;
+        font-size: 37px;
+      }
+    }
+  }
+
+  /*--Productspage--*/
+
+  .productsContainer {
+    margin: $desktop-margin 0px 0px 25px;
+    .productsHeaderBox {
+      .productsHeader {
+        font-size: 56px;
+        width: 364px;
+      }
+    }
+    .productsWrapper {
+      min-height: 630px;
+      .productBox {
+        .productImg {
+          width: 358px;
+          height: 537px;
+        }
+        .productName {
+          font-size: 30px;
+        }
+        .productPrice {
+          font-size: 23px;
+        }
+      }
+    }
+  }
+
+  /*--Media banner--*/
+
+  .mediaBannerContainer {
+    margin: $desktop-margin auto 0px auto;
+    min-height: 389px;
+    width: 85%;
+    .mediaBannerTextBox {
+      min-width: 635px;
+      margin: 100px 40% 0px auto;
+
+      .mediaBannerHeader {
+        font-size: 38px;
+        margin: 15px 0px 0px 0px;
+      }
+      .mediaBannerText {
+        font-size: 23px;
+      }
+      .mediaBannerBtn {
+        width: 263px;
+        height: 61px;
+        font-size: 25px;
+      }
+    }
+  }
+
+  /*--Newsview--*/
+  .newsContainer {
+    margin: $desktop-margin auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1588px;
+
+    .newsTextBox {
+      order: 2;
+      width: 50%;
+      align-items: space-between;
+      justify-content: space-between;
+      .newsHeader {
+        max-width: 611px;
+        font-size: 50px;
+      }
+      .newsText {
+        font-size: 25px;
+        width: 90%;
+        max-width: 819px;
+      }
+    }
+    .newsImgWrapper {
+      width: 40%;
+      order: 1;
+      .newsImg {
+        width: 625px;
+        height: 938px;
+      }
+      .desktopNewsImg {
+        display: none;
+      }
+    }
+  }
+
+  /*--Footer--*/
+  .footerContainer {
+    height: 444px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    .footerLogo {
+      width: 30%;
+      margin: auto;
+      .logoImg {
+        width: 208px;
+        height: 133px;
+      }
+    }
+    .footerMenuColumnsWrapper {
+      width: 20%;
+      height: 250px;
+      order: 2;
+      margin: auto;
+      .footerMenuColumn {
+        .footerMenuCategorie {
+          font-size: 25px;
+        }
+        .footerMenuOptions {
+          font-size: 16px;
+        }
+      }
+    }
+    .footerSubscribeWrapper {
+      margin: 0px auto;
+      order: 3;
+      width: 50%;
+      height: 250px;
+
+      .footerSubscribe {
+        .subscribeHeader {
+          font-size: 31px;
+        }
+        .subscribeRegister {
+          width: 90%;
+          .subscribeInput {
+            font-size: 16px;
+            padding: 8px 16px;
+          }
+          .subscribeBtn {
+            font-size: 25px;
+            width: 155px;
+            height: 60px;
+          }
+        }
+      }
+    }
+    .footerSoMeLinks {
+      width: 144px;
+      .fab {
+        font-size: 38px;
+      }
+    }
+  }
+}

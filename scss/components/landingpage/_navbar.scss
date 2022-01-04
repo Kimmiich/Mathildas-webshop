@@ -30,7 +30,7 @@
     padding: 0px;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     .fa-heart {
       color: $primary-black;
       font-size: 27px;
@@ -43,21 +43,36 @@
     }
     .fa-shopping-basket {
       color: $primary-black;
-      font-size: 27px;
+      height: 27px;
       margin-left: 10px;
       margin-right: 10px;
+      &:hover {
+        path {
+          fill: #bfbfbe;
+        }
+      }
+      &:active {
+        path {
+          fill: $primary-orange;
+        }
+      }
     }
 
     .fa-bars {
       color: $primary-orange;
       font-size: 28px;
       &:hover {
-        color: #f6785fbf;
+        line {
+          stroke: #f6785fbf;
+        }
       }
       &:active {
-        color: #f6785f80;
+        line {
+          stroke: #f6785f80;
+        }
       }
     }
+
     .logInBtn {
       display: none;
       align-items: center;
@@ -69,6 +84,7 @@
       border-radius: 5px;
       border: 0px;
       cursor: pointer;
+
       &:hover {
         background-color: #f6785fbf;
       }
@@ -89,6 +105,7 @@
   .navbarMenu {
     display: none;
     width: 45%;
+    max-width: 736px;
     list-style: none;
     padding: 0px;
     justify-content: space-between;

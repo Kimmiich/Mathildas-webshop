@@ -3,12 +3,19 @@ html,
 body {
   .landingpageContainer {
     background-image: url('/imgs/background-tablet.png');
+    background-position: top center;
     .navbar {
       width: 95%;
       .navLogo {
         width: 78px;
       }
       .iconsBox {
+        .fa-heart {
+          font-size: 18px;
+        }
+        .fa-shopping-basket {
+          height: 18px;
+        }
         .menuBtn {
           display: none;
         }
@@ -117,11 +124,10 @@ body {
     height: 282px;
     flex-flow: column wrap;
     justify-content: flex-start;
-    align-items: flex-start;
     .footerLogo {
-      margin: 10px 0px 0px 0px;
+      margin: 12px 0px;
       width: 55%;
-      height: 48px;
+      min-height: 48px;
       order: 1;
       display: flex;
       justify-content: center;
@@ -130,59 +136,28 @@ body {
       width: 30%;
       height: 80%;
       order: 3;
-
-      margin: auto;
-      .footerMenuColumn {
-        .footerMenuCategorie {
-          font-family: $styled-font;
-          font-size: 19px;
-          margin: 0px;
-        }
-        .footerMenuOptions {
-          list-style: none;
-          padding: 0px;
-          font-weight: normal;
-          font-size: 13px;
-          line-height: 2.8;
-        }
-      }
+      margin: 50px auto;
     }
     .footerSubscribeWrapper {
+      margin: 0px auto;
       order: 2;
       width: 55%;
-      height: 174px;
-      display: flex;
-      margin-top: 20px;
+      height: 176px;
+
       .footerSubscribe {
         .subscribeHeader {
-          margin-top: 10px;
-          font-weight: normal;
+          margin-bottom: 20px;
           width: 100%;
           font-size: 17px;
         }
         .subscribeRegister {
-          margin: 10px auto;
           width: 90%;
           .subscribeInput {
-            padding: 4px 8px;
-            font-size: 13px;
-            width: 75%;
+            font-size: 9px;
           }
           .subscribeBtn {
-            padding: 4px 2px;
             font-size: 13px;
-
-            width: 22%;
           }
-        }
-      }
-      .footerSoMeLinks {
-        padding: 0px;
-        width: 108px;
-
-        .fab {
-          color: $primary-almost-white;
-          font-size: 29px;
         }
       }
     }
