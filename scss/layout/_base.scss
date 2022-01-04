@@ -15,6 +15,7 @@ body {
   }
   .landingpageContainer {
     height: 100vh;
+    min-height: 560px;
     width: 100%;
     margin-bottom: $mobile-margin;
     background-image: url('/imgs/background.png');

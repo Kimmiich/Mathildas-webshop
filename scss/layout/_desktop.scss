@@ -2,6 +2,7 @@
 html,
 body {
   .landingpageContainer {
+    min-height: 870px;
     .navWrapper {
       height: 100px;
     }
@@ -81,7 +82,7 @@ body {
   .mediaBannerContainer {
     margin: $desktop-margin auto 0px auto;
     min-height: 389px;
-    width: 85%;
+    width: 95%;
     .mediaBannerTextBox {
       min-width: 635px;
       margin: 100px 40% 0px auto;
