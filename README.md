@@ -2,7 +2,9 @@
 
 This is a exercise where my classmate Mathilda designed a website and my task was to code that site.
 
-Mathilda also got to code a design of mine. Check it out [here.]()
+Visit @Mathildap to see more of her work!
+
+Mathilda also got to code a design of mine. Check it out [here.](https://mathildap.github.io/GEBLOD/)
 
 ## Launch demo
 
