@@ -21,28 +21,30 @@ body {
           width: 152px;
           height: 44px;
           .logInText {
-            font-size: 1.3125em;
+            font-size: 21px;
           }
         }
       }
       .navbarMenu {
         .menuText {
-          font-size: 1.40625em;
+          font-size: 30px;
         }
       }
     }
     .landingpageTextBox {
       margin-top: 20%;
       .landingpageHeader {
-        font-size: 4.6875em;
+        font-size: 100px;
+        width: 100%;
       }
       .landingpageSubheader {
-        font-size: 1.6875em;
+        font-size: 36px;
+        width: 100%;
       }
       .landingpageBtn {
         width: 315px;
         height: 77px;
-        font-size: 1.734375em;
+        font-size: 37px;
       }
     }
   }
