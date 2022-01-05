@@ -1,9 +1,7 @@
 .landingpageTextBox {
-  display: flex;
+  @include flexCenter;
   flex-flow: column nowrap;
   text-align: center;
-  justify-content: center;
-  align-items: center;
   margin: 206px 25px 0px 25px;
   .landingpageHeader {
     color: $primary-black;
