@@ -26,13 +26,13 @@
     font-size: 15px;
     color: $primary-black;
     background-color: $primary-almost-white;
-    border: 1px solid #6f6c66;
+    border: 1px solid $secondary-dark;
     cursor: pointer;
 
     &:hover,
     :active,
     :disabled {
-      background-color: #f0ede9;
+      background-color: $secondary-light;
     }
     &:active {
       border: none;

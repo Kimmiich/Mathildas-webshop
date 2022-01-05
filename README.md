@@ -17,3 +17,5 @@ A demo of the site is provided through github pages and can be seen [here.]()
 I recommend using **VS code**, there you can use the live-server option too see local changes etc.
 
 ## Other details
+
+This is not a real site and has no real shopping functions.

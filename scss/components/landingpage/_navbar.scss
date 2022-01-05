@@ -82,7 +82,7 @@
           &:checked ~ span {
             opacity: 1;
             transform: rotate(45deg) translate(0px, -1px);
-            background: #232323;
+            background: $primary-black;
           }
           &:checked ~ span:nth-last-child(3) {
             opacity: 0;
@@ -144,21 +144,6 @@
         }
       }
     }
-
-    // .fa-bars {
-    //   color: $primary-orange;
-    //   font-size: 28px;
-    //   &:hover {
-    //     line {
-    //       stroke:
-    //     }
-    //   }
-    //   &:active {
-    //     line {
-    //       stroke: #f6785f80;
-    //     }
-    //   }
-    // }
 
     .logInBtn {
       display: none;
