@@ -8,7 +8,7 @@ Mathilda also got to code a design of mine. Check it out [here.](https://mathild
 
 ## Launch demo
 
-A demo of the site is provided through github pages and can be seen [here.]()
+A demo of the site is provided through github pages and can be seen [here.](https://kimmiich.github.io/Mathildas-webshop/)
 
 ## Installation
 
