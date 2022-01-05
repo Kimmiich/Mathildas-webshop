@@ -35,11 +35,9 @@ body {
     max-width: 1588px;
   }
   .newsContainer {
+    @include flexCenter;
     margin: 0px 25px $mobile-margin 25px;
-    display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
   }
   .footerContainer {
     background-color: $primary-black;

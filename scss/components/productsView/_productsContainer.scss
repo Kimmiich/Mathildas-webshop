@@ -1,6 +1,5 @@
 .productsHeaderBox {
-  display: flex;
-  justify-content: center;
+  @include flexCenter;
 
   .productsHeader {
     width: 184px;
@@ -35,7 +34,6 @@
     }
   }
   @keyframes opacityArrow {
-    0%,
     100% {
       fill: #ffffff;
       stroke: #8d8d8d;
@@ -44,12 +42,14 @@
       stroke: $secondary-dark;
       fill: $primary-orange;
     }
+    0% {
+      fill: #ffffff;
+      stroke: #8d8d8d;
+    }
   }
   .productBox {
-    display: flex;
+    @include flexCenter;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
     margin-right: 28px;
     .productImg {
       width: 217px;

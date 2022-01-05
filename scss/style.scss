@@ -13,10 +13,21 @@ $primary-black: #333333;
 $primary-orange: #f6785f;
 $secondary-dark: #6f6c66;
 $secondary-light: #f0ede9;
+$link-hover: #bfbfbe;
+
+$primary-btn-hover: #f6785fbf;
+$primary-btn-active: #f6785f80;
+$primary-btn-disabled: #f6785f52;
 
 $mobile-margin: 35px;
 $tablet-margin: 70px;
 $desktop-margin: 140px;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @import '../scss/layout/base';
 @import '../scss/components/landingpage/navbar';

@@ -108,9 +108,9 @@
           transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
             background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
             opacity 0.55s ease;
-          &:first-child {
-            transform-origin: 0% 0%;
-          }
+          // &:first-child {
+          //   transform-origin: 0% 0%;
+          // }
           &:nth-last-child(2) {
             transform-origin: 0% 100%;
           }
@@ -137,7 +137,7 @@
               color: $primary-black;
               transition: color 0.3s ease;
               &:hover {
-                color: #f6785fbf;
+                color: $primary-btn-hover;
               }
             }
           }
@@ -158,13 +158,13 @@
       cursor: pointer;
 
       &:hover {
-        background-color: #f6785fbf;
+        background-color: $primary-btn-hover;
       }
       &:active {
-        background-color: #f6785f80;
+        background-color: $primary-btn-active;
       }
       &:disabled {
-        background-color: #f6785f52;
+        background-color: $primary-btn-disabled;
       }
       .logInText {
         font-family: $normal-font;
@@ -188,7 +188,7 @@
       font-size: 17px;
       color: $primary-black;
       &:hover {
-        color: #bfbfbe;
+        color: $link-hover;
       }
       &:active {
         color: $primary-orange;

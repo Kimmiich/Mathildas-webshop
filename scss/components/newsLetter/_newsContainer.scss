@@ -1,8 +1,7 @@
 .newsTextBox {
-  display: flex;
+  @include flexCenter;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+
   .newsHeader {
     font-family: $styled-font;
     font-size: 25px;
@@ -24,9 +23,7 @@
   }
 }
 .newsImgWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter;
   .newsImg {
     width: 95%;
     border-radius: 20px;

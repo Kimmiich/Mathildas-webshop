@@ -80,10 +80,8 @@ body {
       width: 60%;
       min-width: 418px;
       margin: 30px 40% 0px auto;
-      display: flex;
+      @include flexCenter;
       flex-flow: column nowrap;
-      justify-content: center;
-      align-items: center;
       .mediaBannerHeader {
         font-size: 25px;
         margin: 15px 0px 0px 0px;
@@ -130,8 +128,7 @@ body {
       width: 55%;
       min-height: 48px;
       order: 1;
-      display: flex;
-      justify-content: center;
+      @include flexCenter;
     }
     .footerMenuColumnsWrapper {
       width: 30%;

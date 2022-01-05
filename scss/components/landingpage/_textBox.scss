@@ -36,13 +36,13 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #f6785fbf;
+      background-color: $primary-btn-hover;
     }
     &:active {
-      background-color: #f6785f80;
+      background-color: $primary-btn-active;
     }
     &:disabled {
-      background-color: #f6785f52;
+      background-color: $primary-btn-disabled;
     }
   }
 }

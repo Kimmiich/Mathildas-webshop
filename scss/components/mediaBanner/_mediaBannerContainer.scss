@@ -2,10 +2,9 @@
   width: 38%;
   min-width: 150px;
   margin-left: 9%;
-  display: flex;
+  @include flexCenter;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+
   .mediaBannerHeader {
     font-size: 17px;
     text-align: center;

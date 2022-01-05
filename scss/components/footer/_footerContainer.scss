@@ -24,10 +24,8 @@
   }
 }
 .footerSubscribeWrapper {
-  display: flex;
+  @include flexCenter;
   flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
   margin: 20px 0px;
   .footerSubscribe {
     .subscribeHeader {
