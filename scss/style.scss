@@ -36,6 +36,7 @@ $desktop-margin: 140px;
 @import '../scss/components/mediaBanner/mediaBannerContainer';
 @import '../scss/components/newsLetter/newsContainer';
 @import '../scss/components/footer/footerContainer';
+@import '../scss/normalize';
 
 @media screen and (min-width: 768px) {
   @import '../scss/layout/tablet';
