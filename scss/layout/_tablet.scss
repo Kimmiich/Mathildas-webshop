@@ -2,7 +2,7 @@
 html,
 body {
   .landingpageContainer {
-    background-image: url('../imgs/background-tablet.png');
+    background-image: url('../imgs/background-tablet.jpg');
     background-position: top center;
     min-height: 460px;
     .navbar {
@@ -71,7 +71,7 @@ body {
 
   .mediaBannerContainer {
     margin: $tablet-margin auto;
-    background-image: url('../imgs/media-banner-desktop.png');
+    background-image: url('../imgs/media-banner-desktop.jpg');
     min-height: 180px;
     width: 95%;
     border-radius: 20px;
